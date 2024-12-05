@@ -1,7 +1,7 @@
 /* --- Day 2: Red-Nosed Reports --- */
 /* https://adventofcode.com/2024/day/2*/
 
-const fs = require('fs')
+import * as fs from 'fs'
 
 type Report = number[]
 

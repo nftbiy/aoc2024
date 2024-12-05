@@ -1,7 +1,7 @@
-import fs from 'fs'
+import * as fs from 'fs'
 
 const input = fs
-	.readFileSync('input.txt', 'utf-8')
+	.readFileSync('ex.txt', 'utf-8')
 	.trim()
 	.split('\n')
 	.map((row) => row.match(/(\d+)\s+(\d+)/))
